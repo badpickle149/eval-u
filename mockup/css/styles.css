@@ -1,0 +1,321 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #FFFFFF;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+#bar {
+  background-color: #EBC845;
+  height: 0.3em;
+  width: 100%;
+  margin-top: 0.2em;
+  margin-left: 0;
+}
+
+span {
+  color: #FFFFFF;
+  font-size: 14pt;
+}
+
+main {
+  color: #4B2F83;
+}
+
+.jumbotron {
+  background-color: #444444;
+  height: 4rem;
+}
+
+#text-area {
+  margin-top: 6rem;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+a {
+  font-weight: 500;
+  background-color: #EBC845;
+}
+
+nav a {
+  background-color: #f8f9fa;
+}
+
+nav.show {
+  z-index: 1;
+}
+
+/*
+#text-area, #search-bar-home {
+  z-index: -1;
+}
+*/
+
+.nav-link {
+  color: black;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+    font-size: 13pt;
+}
+
+#text-area-results {
+  margin-top: 2rem;
+}
+
+.results span {
+  font-size: 12pt;
+  color: #EBC845;
+}
+
+p {
+  color: black;
+  font-size: 14pt;
+}
+
+#text-area-results span, #text-area-results p {
+  font-size: 14pt;
+  color: #4B2F83;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+form {
+  width: 100%;
+}
+
+#search-bar-home input {
+  height: 4em;
+}
+
+.results a {
+  border-radius: 0.2em;
+  width: 1.9em;
+  height:1.9em;
+  color: black;
+  background-color: #EBC845;
+}
+
+#search-bar-results input, #search-bar-results a {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  color: #EBC845;
+}
+
+#stats .card {
+  margin-bottom: 2em;
+}
+
+#small-btn {
+  width: 8em;
+  font-size: 10pt;
+}
+
+.hidden {
+  display: none;
+}
+
+#card-deck {
+  color: black;
+}
+
+#search-results, #summary {
+  color: black;
+}
+
+#search-results div {
+  color: #0000EE;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+}
+
+#search-results div a {
+  background-color: white;
+}
+
+#search-bar-home a:active, #search-results div a:active {
+  font-weight: bold;
+}
+
+#search-results div a:hover {
+  cursor: pointer;
+}
+
+.rating {
+  color: black;
+}
+
+.summary-list-title, #summary h5 {
+  color: #4B2F83;
+}
+
+#card-deck .card-title {
+  color: #4B2F83;
+}
+
+#card-deck h6 {
+  color: #EBC845;
+  font-style: italic;
+}
+
+#card-deck .card-text {
+  color: black;
+}
+
+#summary li {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: #FFFFFF;
+  position: fixed;
+  background-color: #535353;
+  width: 100%;
+  bottom: 0;
+}
+
+#search-bar-home span {
+  color: black;
+}
+
+#add-review {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#add-review span {
+  color: black;
+}
+
+#review-submit-response {
+  margin-top: 5em;
+}
+
+@media (min-width: 598px) {
+  #search-bar-home, form input, form a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #add-review input {
+    max-width: 30em;
+  }
+
+  #header-content {
+    bottom: 0;
+  }
+
+  #card-deck div {
+    min-width: 15em;
+    margin-bottom: 2em;
+  }
+
+  #card-deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 15em;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #card-deck div {
+    max-width: 20em;
+  }
+
+  #small-btn {
+    width: 10em;
+    font-size: 12pt;
+  }
+
+  #search-bar-home input {
+    width: 25rem;
+  }
+
+  #stats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #stats-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #stats-cards > .card {
+    width: 12rem;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  h3 {
+    font-size: 14pt;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  #text-area {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #search-bar-home {
+    margin-top: 0;
+  }
+
+  #search-bar-home input {
+    height: 2em;
+  }
+
+  #search-bar-home a {
+    max-width: 5em;
+    max-height: 2em;
+  }
+
+  #search-bar-home a span {
+    line-height: 1.6;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 12pt;
+  }
+
+  #summary {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

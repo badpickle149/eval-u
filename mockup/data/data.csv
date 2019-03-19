@@ -1,0 +1,13 @@
+﻿course_code,course_name,course_overall_rating,course_prof_contribution,course_content_rating,num_enrolled,num_took_survey,course_prof_effectiveness
+INFO200,Intellectual Foundation of Informatics,4.24,4.44,4.11,155,57,4.35
+INFO201,Technical Foundation of Informatics,2.96,2.96,3.54,140,39,2.75
+INFO310,Information Assurance and Cybersecurity,4.68,4.81,4.39,31,18,4.9
+INFO312,Enterprise Risk Management,4.56,4.75,4.25,31,15,4.75
+INFO330,Databases and Data Modeling,4.4,4.6,4.33,27,9,4.6
+INFO340,Client Side Development,2.7,2.59,2.95,155,69,2.29
+INFO360,Design Methods,4.38,4.69,4.25,34,13,4.42
+INFO362,Visual Information Design,4.5,4.79,4.5,39,10,4.5
+INFO365,Mobile Application Design,4.6,4.75,4.6,35,9,4.75
+INFO370,Core Methods in Data Science,3,2.75,2.83,34,11,2.7
+INFO371,Advanced Methods in Data Science,2.25,3,3,34,11,2.33
+INFO380,Information System Analysis and Design,3.67,4.17,3.61,119,26,4.14
